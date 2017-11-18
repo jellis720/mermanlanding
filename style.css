@@ -7,7 +7,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10%;
+  height: inherit;
   margin-bottom: 0;
 }
 
@@ -28,4 +28,24 @@ h1{
 .secondary{
   height: 50px;
   margin: 0 25px;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sociallink{
+  height: 150px;
+}
+
+-------------------------------------------------------------------------------
+
+@media screen and (min-width: 600px) {
+    .content{
+        height: 700px;
+
+    }
 }
